@@ -49,7 +49,7 @@ public class Project1 {
 					
 						
 			System.out.println("4.Dessert");
-			System.out.println("Financial statement of dessert shop ");
+			System.out.println("Finance calculation and statement of dessert shop ");
 			System.out.println();
 			
 			System.out.println("5.Fruits");
@@ -65,19 +65,19 @@ public class Project1 {
 		
 		
 		case 1:
-			System.out.println("Hi,Welcome to HO JUN HAN store! " + name);
+			System.out.println("Hi,Welcome to HO JUN HAN service! " + name);
 			BREAD bread = new BREAD();
 			System.out.println();
 			break;
 			
 		case 2:
-			System.out.println("Hi,Welcome to DANIEL FIKREY store! " + name);
+			System.out.println("Hi,Welcome to DANIEL FIKREY service! " + name);
 			CAKE cake = new CAKE();
 			System.out.println();
 			break;
 		
 		case 3: 
-			System.out.println("Hi,Welcome to HO WAI KIAT store! " + name);
+			System.out.println("Hi,Welcome to HO WAI KIAT service! " + name);
 			RICE rice = new RICE();
 			System.out.println();
 			break;
@@ -89,7 +89,7 @@ public class Project1 {
 			break;
 			
 		case 5:
-			System.out.println("Hi,Welcome to NURLAILATUL AQILAH store! " + name);
+			System.out.println("Hi,Welcome to NURLAILATUL AQILAH service! " + name);
 			FRUITS fruits = new FRUITS();
 			System.out.println();
 			break;
@@ -103,6 +103,7 @@ public class Project1 {
 		}
 			System.out.println("Do you want to continue to other food or drink?");
 			System.out.println("1.Yes 2.No");
+			System.out.print("Please enter a number : ");
 		    reply = sc.nextInt();
 		
 	}while (reply == 1);
