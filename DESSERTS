@@ -17,7 +17,6 @@ public class DESSERTS {
 		double totalgrossprft = 0;
 		double totalsales = 0;
 		display1(dessert, price, cost, quantity, grossprft, totalcostingredients, totalgrossprft, totalsales);
-		sc.close();
 	}
 	
 		public static void display1(String[]dessert, double[]price, double[]cost, int[]quantity, double[]gross, double totalcts, double totalgrs, double totalsls) {
@@ -61,7 +60,6 @@ public class DESSERTS {
 			System.out.println();
 			display3(totalothercosts, income, totalgrs);
 			System.out.println();
-			sc.close();
 		}
 		
 		public static double display2(double totalotr) {
@@ -102,7 +100,6 @@ public class DESSERTS {
 				System.out.println();
 				totalotr = rent + utilities + transport;
 			}
-			sc.close();
 			return totalotr;
 		}
 		
